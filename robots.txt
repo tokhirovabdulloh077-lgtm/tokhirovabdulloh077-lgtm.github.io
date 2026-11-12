@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abdullohtohirov.github.io/sitemap.xml
+Sitemap: https://tokhirovabdulloh077-lgtm.github.io/sitemap.xml
