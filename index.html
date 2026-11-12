@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO & Social Graph -->
-  <title>Abdulloh Tohirov | AI & Software Engineering</title>
-  <meta name="title" content="Abdulloh Tohirov | AI & Software Engineering">
-  <meta name="description" content="Abdulloh Tohirov — Dasturiy injiniring talabasi, AI vositalari orqali mustaqil kodlovchi va yangi avlod texnologiyalar yaratuvchisi.">
-  <meta name="keywords" content="Abdulloh Tohirov, Tohirov Abdulloh, AI developer, Software Engineer, Tashkent, Fergana, Next-Gen Portfolio">
+  <title>Abdulloh Tohirov — Shaxsiy Sayt & Loyihalar</title>
+  <meta name="title" content="Abdulloh Tohirov — Shaxsiy Sayt & Loyihalar">
+  <meta name="description" content="Abdulloh Tohirov — Farg'ona / Toshkent. Dasturiy injiniring talabasi, Noor AI tarjimon bot yaratuvchisi.">
+  <meta name="keywords" content="Abdulloh Tohirov, Tohirov Abdulloh, Noor AI, Noor tarjimon bot, dasturiy injiniring, Toshkent, Fargona">
   <meta name="author" content="Abdulloh Tohirov">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph / Telegram / Social -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://abdullohtohirov.github.io/">
-  <meta property="og:title" content="Abdulloh Tohirov | AI & Software Engineering">
-  <meta property="og:description" content="Dasturiy injiniring talabasi, AI vositalari orqali yangi avlod mustaqil loyihalar yaratuvchisi.">
+  <meta property="og:title" content="Abdulloh Tohirov">
+  <meta property="og:description" content="Dasturiy injiniring talabasi. Noor AI tarjimon boti va dasturlashga oid loyihalarim.">
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/175609091?v=4">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://abdullohtohirov.github.io/">
-  <meta property="twitter:title" content="Abdulloh Tohirov | AI & Software Engineering">
-  <meta property="twitter:description" content="Dasturiy injiniring talabasi, AI vositalari orqali yangi avlod mustaqil loyihalar yaratuvchisi.">
+  <meta property="twitter:title" content="Abdulloh Tohirov">
+  <meta property="twitter:description" content="Dasturiy injiniring talabasi. Noor AI tarjimon boti va dasturlashga oid loyihalarim.">
   <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/175609091?v=4">
 
   <!-- Favicon -->
@@ -32,7 +32,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- JSON-LD Schema for Google Knowledge Graph -->
   <script type="application/ld+json">
@@ -41,8 +41,8 @@
     "@type": "Person",
     "name": "Abdulloh Tohirov",
     "alternateName": ["Tohirov Abdulloh", "abdullohtohirov"],
-    "jobTitle": "Software Engineering Student & AI Builder",
-    "description": "Software Engineering student exploring AI-driven development and next-generation independent digital products.",
+    "jobTitle": "Software Engineering Student",
+    "description": "Software Engineering student based in Tashkent, creator of Noor AI translator bot.",
     "url": "https://abdullohtohirov.github.io",
     "image": "https://avatars.githubusercontent.com/u/175609091?v=4",
     "address": {
@@ -61,291 +61,298 @@
 </head>
 <body>
 
-  <!-- Interactive Neural / Particle Canvas -->
-  <canvas id="cyber-canvas"></canvas>
+  <!-- Ambient Light -->
+  <div class="ambient-glow glow-top"></div>
+  <div class="ambient-glow glow-bottom"></div>
 
-  <!-- Futuristic HUD Header -->
-  <header class="hud-header">
-    <div class="hud-container">
+  <!-- Interactive Subtle Particle Background -->
+  <canvas id="subtle-canvas"></canvas>
+
+  <!-- Clean Top Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
       
-      <!-- Brand & System Status -->
-      <div class="hud-left">
-        <a href="#" class="hud-brand">
-          <div class="brand-monogram">
-            <span class="mono-glitch">AT</span>
-            <div class="monogram-scanline"></div>
-          </div>
-          <div class="brand-info">
-            <span class="brand-title">ABDULLOH TOHIROV</span>
-            <span class="brand-sys">[SYS_STATUS: ONLINE]</span>
-          </div>
-        </a>
-      </div>
+      <!-- Brand -->
+      <a href="#" class="brand">
+        <span class="brand-avatar">AT</span>
+        <span class="brand-name">Abdulloh Tohirov</span>
+      </a>
 
-      <!-- Center Telemetry (Clock & Location) -->
-      <div class="hud-telemetry">
-        <span class="tele-item"><span class="tele-dot"></span> UZT: <span id="clock-display">00:00:00</span></span>
-        <span class="tele-sep">/</span>
-        <span class="tele-item">LOC: TAS / 41.2995° N</span>
-      </div>
+      <!-- Right Controls -->
+      <div class="nav-actions">
+        <!-- Live Time -->
+        <span class="time-badge">
+          <span class="dot-live"></span>
+          Toshkent: <span id="clock-display">00:00</span>
+        </span>
 
-      <!-- Controls: Audio, Lang, Uplink -->
-      <div class="hud-controls">
-        <button id="sound-btn" class="hud-btn" title="Toggle Audio FX" aria-label="Toggle Sound">
-          <span class="hud-btn-icon">🔊</span>
-          <span class="hud-btn-text">SFX: ON</span>
+        <!-- Language Switcher -->
+        <button id="lang-btn" class="btn-lang" aria-label="Switch Language">
+          <span id="lang-label">UZ</span>
         </button>
 
-        <button id="lang-btn" class="hud-btn lang-toggle" aria-label="Switch Language">
-          <span class="hud-btn-icon">🌐</span>
-          <span id="lang-label" class="hud-btn-text">UZ</span>
-        </button>
-
-        <a href="https://t.me/toh1rovabdulloh" target="_blank" rel="noopener noreferrer" class="hud-btn hud-btn-accent">
-          <span>UPLINK ➔</span>
+        <!-- Telegram CTA -->
+        <a href="https://t.me/toh1rovabdulloh" target="_blank" rel="noopener noreferrer" class="btn-telegram-nav">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18.868-1.47 6.942-2.128 10.021-.278 1.303-.761 1.543-1.229 1.583-.984.09-1.732-.65-2.684-1.274-1.488-.976-2.328-1.584-3.773-2.536-1.67-1.1-0.587-1.704.364-2.693.249-.258 4.57-4.188 4.653-4.542.01-.044.02-.211-.079-.299s-.244-.058-.35-.034c-.15.034-2.534 1.61-7.152 4.729-.676.465-1.288.692-1.837.68-.605-.013-1.768-.342-2.634-.624-1.062-.346-1.905-.529-1.831-1.116.039-.306.46-.62 1.266-.942 4.957-2.16 8.264-3.585 9.921-4.276 4.723-1.968 5.706-2.31 6.345-2.321.141-.003.454.032.657.197.172.139.22.328.243.46.022.132.051.433.028.669z"/>
+          </svg>
+          <span>Telegram</span>
         </a>
       </div>
 
     </div>
   </header>
 
-  <main class="cyber-main">
+  <main class="page-content">
 
-    <!-- HERO / CYBER DECK -->
-    <section class="cyber-hero">
-      <div class="container hero-layout">
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="container hero-container">
         
-        <!-- Target Reticle & Avatar -->
-        <div class="target-unit">
-          <div class="bracket top-left"></div>
-          <div class="bracket top-right"></div>
-          <div class="bracket bottom-left"></div>
-          <div class="bracket bottom-right"></div>
-          
-          <div class="avatar-radar">
-            <div class="radar-sweep"></div>
-            <img src="https://avatars.githubusercontent.com/u/175609091?v=4" alt="Abdulloh Tohirov" class="cyber-avatar" onerror="this.src='https://api.dicebear.com/7.x/bottts-neutral/svg?seed=Abdulloh'">
+        <!-- Avatar & Status -->
+        <div class="profile-photo-wrapper">
+          <div class="photo-border">
+            <img src="https://avatars.githubusercontent.com/u/175609091?v=4" alt="Abdulloh Tohirov" class="profile-photo" onerror="this.src='https://api.dicebear.com/7.x/bottts-neutral/svg?seed=Abdulloh'">
           </div>
-
-          <div class="unit-tag">
-            <span class="pulse-indicator"></span>
-            <span data-i18n="unit_status">FAOL // DASTURIY INJINIRING</span>
+          <div class="photo-status">
+            <span class="status-indicator"></span>
+            <span data-i18n="status_text">O'qishda va amaliyotda</span>
           </div>
         </div>
 
-        <!-- Name & Glitch Headline -->
-        <div class="hero-content">
-          <div class="code-badge">
-            <span class="badge-prefix">// INIT_PROTOCOL_2026 //</span>
-            <span class="badge-val">AUTONOMOUS_BUILDER</span>
-          </div>
+        <!-- Name & Title -->
+        <h1 class="hero-name">Abdulloh Tohirov</h1>
+        
+        <p class="hero-subtitle">
+          <span data-i18n="hero_role">Dasturiy injiniring talabasi</span> 
+          <span class="sep">•</span> 
+          <span class="highlight-text" data-i18n="hero_focus">AI va yangi loyihalar</span>
+        </p>
 
-          <h1 class="glitch-name" data-text="ABDULLOH TOHIROV">ABDULLOH TOHIROV</h1>
+        <!-- Chips -->
+        <div class="info-chips">
+          <span class="chip">
+            <span class="chip-dot"></span>
+            <span data-i18n="chip_location">Farg'ona / Toshkent</span>
+          </span>
+          <span class="chip">
+            <span class="chip-icon">🤖</span>
+            <span data-i18n="chip_project">Noor AI loyihasi</span>
+          </span>
+          <span class="chip">
+            <span class="chip-icon">💻</span>
+            <span>Software Engineering</span>
+          </span>
+        </div>
 
-          <!-- Typewriter Subtitle -->
-          <div class="typewriter-box">
-            <span class="prompt-arrow">❯</span>
-            <span id="typing-text" class="typewriter-text"></span>
-            <span class="typewriter-cursor">_</span>
-          </div>
+        <!-- Simple Honest Bio -->
+        <p class="hero-bio" data-i18n="hero_bio">
+          Farg'onadanman, hozirda Toshkentda dasturiy injiniring yo'nalishida tahsil olyapman. Sun'iy intellekt imkoniyatlaridan foydalanib dasturlashni amalda o'rganish va odamlarga yordam beradigan foydali bot va dasturlar yaratishga qiziqaman.
+        </p>
 
-          <p class="hero-manifesto" data-i18n="hero_manifesto">
-            Eski qoliplar va zerikarli darsliklarni chetga surib, sun'iy intellekt (AI) kuchi orqali g'oyalarni bir zumda real kodga aylantiraman. O'z yo'lini mustaqil yaratuvchi, o'ziga xon — o'ziga bek.
-          </p>
+        <!-- Action Buttons -->
+        <div class="hero-actions">
+          <a href="https://t.me/toh1rovabdulloh" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18.868-1.47 6.942-2.128 10.021-.278 1.303-.761 1.543-1.229 1.583-.984.09-1.732-.65-2.684-1.274-1.488-.976-2.328-1.584-3.773-2.536-1.67-1.1-0.587-1.704.364-2.693.249-.258 4.57-4.188 4.653-4.542.01-.044.02-.211-.079-.299s-.244-.058-.35-.034c-.15.034-2.534 1.61-7.152 4.729-.676.465-1.288.692-1.837.68-.605-.013-1.768-.342-2.634-.624-1.062-.346-1.905-.529-1.831-1.116.039-.306.46-.62 1.266-.942 4.957-2.16 8.264-3.585 9.921-4.276 4.723-1.968 5.706-2.31 6.345-2.321.141-.003.454.032.657.197.172.139.22.328.243.46.022.132.051.433.028.669z"/>
+            </svg>
+            <span data-i18n="btn_telegram">Telegram'da yozish</span>
+          </a>
 
-          <!-- Metric Badges -->
-          <div class="cyber-tags">
-            <div class="tag-pill">
-              <span class="tag-key">HOMETOWN:</span>
-              <span class="tag-val" data-i18n="val_hometown">Farg'ona</span>
-            </div>
-            <div class="tag-pill">
-              <span class="tag-key">CURRENT_NODE:</span>
-              <span class="tag-val" data-i18n="val_node">Toshkent</span>
-            </div>
-            <div class="tag-pill">
-              <span class="tag-key">SPECIALTY:</span>
-              <span class="tag-val" data-i18n="val_spec">AI-Augmented Dev</span>
-            </div>
-          </div>
+          <a href="https://github.com/abdullohtohirov" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            <span data-i18n="btn_github">GitHub</span>
+          </a>
         </div>
 
       </div>
     </section>
 
-    <!-- INTERACTIVE AI COMMAND TERMINAL -->
+    <!-- FEATURED PROJECTS SECTION -->
+    <section class="section projects-section">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-badge" data-i18n="badge_projects">Loyihalar</span>
+          <h2 class="section-heading" data-i18n="heading_projects">Nimalar ustida ishlayapman?</h2>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Noor AI Project Card (Featured) -->
+          <div class="project-card featured-project">
+            <div class="project-header">
+              <div class="project-icon-box">🤖</div>
+              <div class="project-status-pill">
+                <span class="status-live-dot"></span>
+                <span data-i18n="noor_status">Faol loyiha</span>
+              </div>
+            </div>
+
+            <h3 class="project-name">Noor AI — Tarjimon Bot</h3>
+            
+            <p class="project-desc" data-i18n="noor_desc">
+              Sun'iy intellekt texnologiyalariga asoslangan aqlli tarjimon bot. Matnlarni shunchaki so'zma-so'z emas, kontekstni to'g'ri tushungan holda aniq va tabiiy tarjima qiladi.
+            </p>
+
+            <div class="project-tags">
+              <span class="ptag">Telegram Bot</span>
+              <span class="ptag">AI Translation</span>
+              <span class="ptag">NLP</span>
+            </div>
+          </div>
+
+          <!-- Noor Desktop AI -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon-box">🎙️</div>
+              <div class="project-status-pill dev-pill">
+                <span data-i18n="noor_desk_status">Desktop ilova</span>
+              </div>
+            </div>
+
+            <h3 class="project-name">Noor — Ovozli Yordamchi</h3>
+            
+            <p class="project-desc" data-i18n="noor_desk_desc">
+              O'zbek tilida ishlaydigan aqlli ovozli desktop yordamchi dasturi (macOS). Ovozli buyruqlar orqali tizimni boshqarish va kundalik vazifalarni yengillashtirish uchun yaratilmoqda.
+            </p>
+
+            <div class="project-tags">
+              <span class="ptag">macOS</span>
+              <span class="ptag">Ovozli AI</span>
+              <span class="ptag">Python / Swift</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT & PATH -->
+    <section class="section about-section">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-badge" data-i18n="badge_about">Haqimda</span>
+          <h2 class="section-heading" data-i18n="heading_about">Men va qiziqishlarim</h2>
+        </div>
+
+        <div class="about-cards-grid">
+          
+          <div class="about-card">
+            <div class="card-num">01</div>
+            <h3 data-i18n="card1_title">Farg'onadan Toshkentga</h3>
+            <p data-i18n="card1_text">
+              Farg'onadanman, ayni paytda Toshkentda Dasturiy injiniring bo'yicha ta'lim olyapman. Quruq nazariyaga bog'lanib qolmasdan, imkon qadar tezroq amaliyotga o'tib mustaqil ishlashni ma'qul ko'raman.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="card-num">02</div>
+            <h3 data-i18n="card2_title">AI bilan Dasturlash</h3>
+            <p data-i18n="card2_text">
+              Dasturlashni noldan yillab o'rganish emas, balki hozirgi kuchli AI vositalaridan unumli foydalangan holda g'oyalarni tez va sifatli amalga oshirishga e'tibor qarataman.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="card-num">03</div>
+            <h3 data-i18n="card3_title">Mustaqil Faoliyat</h3>
+            <p data-i18n="card3_text">
+              Birovning aytganini kutib o'tirmasdan, o'zimga xon — o'zimga bek bo'lib, o'z g'oyalarim va loyihalarim ustida mustaqil ishlashni yoqtiraman.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTERACTIVE TERMINAL -->
     <section class="section terminal-section">
       <div class="container">
         
-        <div class="section-badge-bar">
-          <span class="section-num">01</span>
-          <span class="section-label" data-i18n="term_header_label">INTERAKTIV AI TERMINAL</span>
-          <span class="section-line"></span>
+        <div class="section-title-wrap">
+          <span class="section-badge" data-i18n="badge_terminal">Interaktiv Qism</span>
+          <h2 class="section-heading" data-i18n="heading_terminal">Konsol orqali ma'lumot olish</h2>
         </div>
 
-        <div class="terminal-deck">
-          <!-- Terminal Titlebar -->
-          <div class="terminal-topbar">
-            <div class="term-dots">
-              <span class="dot red"></span>
-              <span class="dot yellow"></span>
-              <span class="dot green"></span>
+        <div class="terminal-box">
+          <div class="terminal-bar">
+            <div class="term-traffic-lights">
+              <span class="light red"></span>
+              <span class="light yellow"></span>
+              <span class="light green"></span>
             </div>
-            <div class="term-title">abdulloh@neural-node: ~ /bin/core</div>
-            <div class="term-mode">[BASH / AI_AGENT]</div>
+            <span class="term-title">abdulloh@portfolio: ~</span>
+            <span class="term-badge">AI Assistant</span>
           </div>
 
-          <!-- Quick Command Trigger Chips -->
-          <div class="term-triggers">
-            <span class="trigger-label" data-i18n="quick_cmds_label">Tezkor buyruqlar:</span>
-            <button class="chip-cmd" data-cmd="whoami"><code>whoami</code></button>
-            <button class="chip-cmd" data-cmd="skills"><code>skills</code></button>
-            <button class="chip-cmd" data-cmd="philosophy"><code>philosophy</code></button>
-            <button class="chip-cmd" data-cmd="telegram"><code>telegram</code></button>
-            <button class="chip-cmd" data-cmd="clear"><code>clear</code></button>
+          <!-- Quick Command Buttons -->
+          <div class="quick-commands">
+            <span class="quick-label" data-i18n="quick_label">Tanlang:</span>
+            <button class="btn-cmd" data-cmd="whoami"><code>whoami</code></button>
+            <button class="btn-cmd" data-cmd="noor"><code>noor_ai</code></button>
+            <button class="btn-cmd" data-cmd="skills"><code>skills</code></button>
+            <button class="btn-cmd" data-cmd="telegram"><code>telegram</code></button>
+            <button class="btn-cmd" data-cmd="clear"><code>clear</code></button>
           </div>
 
-          <!-- Terminal Output Screen -->
+          <!-- Screen -->
           <div id="terminal-screen" class="terminal-screen">
-            <div class="term-line output-line system-welcome">
-              <span class="sys-msg">[TIZIM] Abdulloh Tohirovning AI terminaliga xush kelibsiz.</span><br>
-              <span class="sys-sub">Quyidagi buyruqlarni bosing yoki xohlagan matningizni kiritib ENTER bosing. Yordam uchun 'help' yozing.</span>
+            <div class="term-msg-welcome">
+              <span data-i18n="term_welcome">Abdulloh Tohirovning qisqa konsoliga xush kelibsiz. Yuqoridagi tugmalarni bosing yoki pastga buyruq yozing.</span>
             </div>
           </div>
 
-          <!-- Terminal Input Prompt -->
-          <form id="terminal-form" class="terminal-input-row" autocomplete="off">
-            <span class="term-prompt">visitor@tohirov:~$</span>
-            <input type="text" id="terminal-input" class="term-input" placeholder="Buyruq kiriting (masalan: whoami, skills, clear)..." autofocus>
-            <button type="submit" class="term-enter-btn">ENTER ↵</button>
+          <!-- Input Row -->
+          <form id="terminal-form" class="terminal-input-bar" autocomplete="off">
+            <span class="term-prompt">visitor:~$</span>
+            <input type="text" id="terminal-input" class="term-input" placeholder="Buyruq yozing (whoami, noor, skills, clear)...">
+            <button type="submit" class="btn-term-enter">Yuborish ↵</button>
           </form>
         </div>
 
       </div>
     </section>
 
-    <!-- BENTO CYBER GRID: PHILOSOPHY & SKILLS -->
-    <section class="section bento-section">
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section">
       <div class="container">
         
-        <div class="section-badge-bar">
-          <span class="section-num">02</span>
-          <span class="section-label" data-i18n="bento_header_label">FAOLIYAT VA YO'NALISHLAR</span>
-          <span class="section-line"></span>
-        </div>
+        <div class="contact-card">
+          <div class="contact-card-content">
+            <span class="section-badge" data-i18n="badge_contact">Aloqa</span>
+            <h2 class="contact-title" data-i18n="heading_contact">Savol yoki taklif bormi?</h2>
+            <p class="contact-desc" data-i18n="desc_contact">
+              Qiziqarli loyihalar, texnologik suhbatlar yoki Noor AI bo'yicha fikr almashish uchun Telegram orqali bemalol yozaverishingiz mumkin.
+            </p>
 
-        <div class="bento-grid">
-          
-          <!-- Bento 1: Large Featured Card -->
-          <div class="bento-card bento-hero-card" data-tilt>
-            <div class="card-corner-tag">MODULE_01</div>
-            <div class="card-glow-element"></div>
-            <div class="card-inner">
-              <div class="card-icon-tech">⚡</div>
-              <h3 data-i18n="bento1_title">Mustaqillik: "O'ziga xon, o'ziga bek"</h3>
-              <p data-i18n="bento1_desc">
-                Birovlarning chizib bergan qolipida yurish emas, balki sun'iy intellekt imkoniyatlarini maksimal o'zlashtirib, individual muhandis darajasiga chiqish. 1 ta inson + AI = Butun bir dasturiy ta'minot kompaniyasi.
-              </p>
-              <div class="live-pulse-strip">
-                <span class="pulse-chip">100% FREEDOM</span>
-                <span class="pulse-chip">RAPID EXPERIMENTATION</span>
-              </div>
+            <div class="contact-links">
+              <!-- Telegram Link -->
+              <a href="https://t.me/toh1rovabdulloh" target="_blank" rel="noopener noreferrer" class="contact-btn-item">
+                <span class="c-icon">✈️</span>
+                <div class="c-info">
+                  <span class="c-type">Telegram</span>
+                  <span class="c-value">@toh1rovabdulloh</span>
+                </div>
+                <span class="c-arrow">↗</span>
+              </a>
+
+              <!-- GitHub Link -->
+              <a href="https://github.com/abdullohtohirov" target="_blank" rel="noopener noreferrer" class="contact-btn-item">
+                <span class="c-icon">🐙</span>
+                <div class="c-info">
+                  <span class="c-type">GitHub</span>
+                  <span class="c-value">abdullohtohirov</span>
+                </div>
+                <span class="c-arrow">↗</span>
+              </a>
             </div>
           </div>
-
-          <!-- Bento 2: AI Code Synergy -->
-          <div class="bento-card" data-tilt>
-            <div class="card-corner-tag">MODULE_02</div>
-            <div class="card-inner">
-              <div class="card-icon-tech">🤖</div>
-              <h3 data-i18n="bento2_title">AI bilan Kod Yozish</h3>
-              <p data-i18n="bento2_desc">
-                Sintaksis yodlash o'tmishda qoldi. Hozirgi eng kuchli ko'nikma — to'g'ri arxitektura o'ylash, LLM vositalarini boshqarish va natijani bir zumda ishga tushirish.
-              </p>
-              <div class="tech-stack-chips">
-                <span>Prompt Ops</span>
-                <span>Agentic AI</span>
-                <span>System Design</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Bento 3: Coordinates & Journey -->
-          <div class="bento-card" data-tilt>
-            <div class="card-corner-tag">MODULE_03</div>
-            <div class="card-inner">
-              <div class="card-icon-tech">🧭</div>
-              <h3 data-i18n="bento3_title">Farg'ona ➔ Toshkent</h3>
-              <p data-i18n="bento3_desc">
-                Farg'onadan poytaxtga qadam. Toshkentda Dasturiy injiniring bo'yicha ta'lim olib, amaliy IT industriyasi markazida o'z yo'limni mustahkamlamoqdaman.
-              </p>
-              <div class="coord-display">
-                <code>COORD: 40.3842° N (FRG) ➔ 41.2995° N (TAS)</code>
-              </div>
-            </div>
-          </div>
-
-          <!-- Bento 4: Direct Builder Mindset -->
-          <div class="bento-card bento-wide" data-tilt>
-            <div class="card-corner-tag">MODULE_04</div>
-            <div class="card-inner">
-              <div class="card-icon-tech">🚀</div>
-              <h3 data-i18n="bento4_title">Kelajak Nima Bo'ladi?</h3>
-              <p data-i18n="bento4_desc">
-                Hech qanday oylik kutish yoki birovning buyrug'i bilan cheklanmasdan, global bozorda ishlaydigan mustaqil veb-vositalar, mini SaaS va AI yechimlari yaratish.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- UPLINK / DIRECT CONTACT -->
-    <section class="section uplink-section">
-      <div class="container">
-        
-        <div class="section-badge-bar">
-          <span class="section-num">03</span>
-          <span class="section-label" data-i18n="uplink_header_label">TO'G'RIDAN-TO'G'RI ALOQA</span>
-          <span class="section-line"></span>
-        </div>
-
-        <div class="uplink-grid">
-          
-          <!-- Telegram Card -->
-          <a href="https://t.me/toh1rovabdulloh" target="_blank" rel="noopener noreferrer" class="uplink-card telegram-uplink">
-            <div class="uplink-badge-top">PRIMARY COMM // TELEGRAM</div>
-            <div class="uplink-body">
-              <div class="uplink-icon">✈️</div>
-              <div class="uplink-text">
-                <span class="uplink-channel">TELEGRAM DIRECT</span>
-                <span class="uplink-handle">@toh1rovabdulloh</span>
-              </div>
-            </div>
-            <div class="uplink-footer">
-              <span data-i18n="uplink_open">Aloqaga chiqish</span>
-              <span class="cyber-arrow">➔</span>
-            </div>
-          </a>
-
-          <!-- GitHub Card -->
-          <a href="https://github.com/abdullohtohirov" target="_blank" rel="noopener noreferrer" class="uplink-card github-uplink">
-            <div class="uplink-badge-top">CODE REPOSITORY // GITHUB</div>
-            <div class="uplink-body">
-              <div class="uplink-icon">🐙</div>
-              <div class="uplink-text">
-                <span class="uplink-channel">GITHUB ARCHIVE</span>
-                <span class="uplink-handle">abdullohtohirov</span>
-              </div>
-            </div>
-            <div class="uplink-footer">
-              <span data-i18n="uplink_repos">Repozitoriylarni ko'rish</span>
-              <span class="cyber-arrow">➔</span>
-            </div>
-          </a>
-
         </div>
 
       </div>
@@ -353,15 +360,16 @@
 
   </main>
 
-  <!-- CYBER FOOTER -->
-  <footer class="hud-footer">
-    <div class="container hud-footer-inner">
-      <div class="footer-left">
-        <span class="footer-sec-id">SEC_ID: AT-2026-UZ</span>
-        <span class="footer-copy">© <span id="footer-year">2026</span> ABDULLOH TOHIROV. <span data-i18n="footer_all_rights">BARCHA HUQUQLAR HIMOYA QILINGAN.</span></span>
-      </div>
-      <div class="footer-right">
-        <span class="footer-ping">PING: 24ms [ENCRYPTED]</span>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p class="footer-copy">
+        © <span id="current-year">2026</span> Abdulloh Tohirov. <span data-i18n="footer_rights">Barcha huquqlar himoyalangan.</span>
+      </p>
+      <div class="footer-links">
+        <a href="https://t.me/toh1rovabdulloh" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <span class="dot">•</span>
+        <a href="https://github.com/abdullohtohirov" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
   </footer>
