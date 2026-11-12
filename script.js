@@ -1,5 +1,5 @@
 // ==========================================================================
-// Abdulloh Tohirov — Cybernetic Neural System Engine
+// Abdulloh Tohirov — INTJ-T Neural System Engine
 // Canvas Particle Matrix, Interactive AI Terminal, Web Audio Synth, I18n
 // ==========================================================================
 
@@ -8,56 +8,58 @@
    -------------------------------------------------------------------------- */
 const i18n = {
   uz: {
-    unit_status: "SOFTWARE ENGINEERING // BUILDER",
-    hero_manifesto: "Farg'onadanman, Toshkentda dasturiy injiniring yo'nalishida o'qiyman. Ortiqcha qoliplarga tushmasdan, AI imkoniyatlari va ilg'or texnologiyalar bilan mustaqil va real ishlaydigan loyihalar yaratish — mening yo'lim.",
+    unit_status: "INTJ-T // ARCHITECT",
+    hero_manifesto: "Farg'onadanman, Toshkentda dasturiy injiniring bo'yicha o'qiyman. INTJ-T xarakter: ortiqcha balandparvoz gaplarsiz, sovuqqon mantiq, tizimli fikrlash va doimiy takomillashish. Noor macOS agenti va Noor AI tarjimon botini sun'iy intellektni boshqarib (AI-Assisted Architecture) birgalikda yaratganman.",
     val_hometown: "Farg'ona ➔ Toshkent",
+    val_method: "AI Leverage & Architecture",
     
-    badge_projects: "ASOSIY LOYIHALAR",
-    noor_os_desc: "macOS tizimi uchun ovozli, ko'ruvchi, tahliliy fikrlovchi va kompyuterni mustaqil boshqara oladigan ilg'or Desktop AI agenti. Vosk lokal uyg'onish modeli («Nur»), o'zbekcha nutq (Edge-TTS), foydalanuvchi ovozini biometrik tanish (Speaker ID), Accessibility Tree orqali dasturlarni boshqarish, Vision OCR vizual xotira va Sokratik bahs tizimini o'z ichiga oladi.",
-    noor_bot_desc: "Sun'iy intellekt texnologiyasiga asoslangan aqlli Telegram tarjimon bot. Matnlarni oddiy so'zma-so'z emas, kontekstni va ma'no nozikliklarini to'liq tushungan holda tez va aniq tarjima qilib beradi.",
+    badge_projects: "AI BILAN QURILGAN LOYIHALAR",
+    noor_os_desc: "Sun'iy intellekt vositalari yordamida to'liq arxitekturasi ishlab chiqilgan, macOS tizimi uchun ovozli va kompyuterni mustaqil boshqara oladigan Desktop AI agenti. Vosk lokal uyg'onish modeli («Nur»), o'zbekcha nutq (Edge-TTS), foydalanuvchi ovozini biometrik tanish (Speaker ID), Accessibility Tree orqali tizimni boshqarish, Vision OCR vizual xotirasi va Sokratik tahlil tizimi bilan qurollantirilgan.",
+    noor_bot_desc: "Sun'iy intellekt imkoniyatlarini amaliyotga tatbiq etish natijasida yaratilgan aqlli Telegram tarjimon boti. So'zma-so'z emas, kontekstni va ma'no nozikliklarini to'g'ri anglagan holda tez va aniq tarjima qilib beradi.",
 
-    term_header_label: "INTERAKTIV AI TERMINAL",
+    term_header_label: "STRATEGIK AI TERMINAL",
     quick_cmds_label: "Buyruqlar:",
     
-    bento_header_label: "YO'NALISHLAR VA FALSAFA",
-    bento1_title: "\"O'ziga xon, o'ziga bek\"",
-    bento1_desc: "Birovning chizib bergan qolipida cheklanib o'tirmasdan, mustaqil fikrlab yangiliklar yaratish. Sun'iy intellekt imkoniyatlari tufayli hozir bitta mustaqil muhandis butun jamoa ishini bajara oladi.",
-    bento2_title: "AI bilan Kod Yozish",
-    bento2_desc: "Sintaksis yodlashdan ko'ra, to'g'ri arxitektura qurish, sun'iy intellektga aniq yo'l ko'rsatish va g'oyalarni tezda ishlaydigan dasturga aylantirish.",
-    bento3_title: "Farg'ona ➔ Toshkent",
-    bento3_desc: "Farg'onadan poytaxtga kelib, Toshkentda Dasturiy injiniring bo'yicha ta'lim olyapman. Nazariyani chetga surib, real loyihalar chiqarish bilan mashg'ulman.",
-    bento4_title: "Maqsad va Rejalar",
-    bento4_desc: "Noor macOS agentini va Noor AI botini yanada rivojlantirish, shuningdek odamlarga foydasi tegadigan yangi mustaqil dasturiy mahsulotlar yaratish.",
+    bento_header_label: "INTJ-T XARAKTER VA ISH USLUBI",
+    bento1_title: "INTJ-T: Sovuqqon Mantiq va Tizimli Fikrlash",
+    bento1_desc: "INTJ-T (Turbulent Architect) sifatida quruq hissiyotlar yoki balandparvoz gaplarni yoqtirmayman. Har bir g'oya avval tahlil qilinadi, aniq tizimga solinadi va faqat samara beradigan usullar bilan amalga oshiriladi.",
+    bento2_title: "AI — Kodlovchi va Kuchaytirgich",
+    bento2_desc: "Loyihalarimni sun'iy intellekt vositalari bilan birgalikda yaratganman. Men uchun dasturlash — yillab sintaksis yodlash emas, balki to'g'ri arxitekturani o'ylab, AI'ga to'g'ri yo'l ko'rsatish orqali murakkab mahsulotlarni tez chiqarishdir.",
+    bento3_title: "Farg'onadan Toshkentga",
+    bento3_desc: "Farg'onadan poytaxtga kelib, Toshkentda Dasturiy Injiniring bo'yicha ta'lim olyapman. Quruq nazariyaga vaqt yo'qotmay, to'g'ridan-to'g'ri ishlaydigan amaliy loyihalarga diqqatimni qaratganman.",
+    bento4_title: "Doimiy Takomillashish (Perfectionism)",
+    bento4_desc: "Turbulent (-T) xususiyatim sababli erishilgan natija bilan cheklanib qolmayman. Har bir loyiha va tizimni yanada tezroq, xavfsizroq va qulayroq qilish ustida doimiy ishlayman.",
     
     uplink_header_label: "TO'G'RIDAN-TO'G'RI ALOQA",
-    uplink_open: "Xabar yozish",
+    uplink_open: "Aloqaga chiqish",
     uplink_repos: "Repozitoriylarni ko'rish",
     footer_all_rights: "Barcha huquqlar himoyalangan."
   },
   en: {
-    unit_status: "SOFTWARE ENGINEERING // BUILDER",
-    hero_manifesto: "From Fergana, currently pursuing Software Engineering in Tashkent. Avoiding bureaucratic molds; building tangible, high-leverage products independently through AI and modern architectures.",
+    unit_status: "INTJ-T // ARCHITECT",
+    hero_manifesto: "From Fergana, currently pursuing Software Engineering in Tashkent. INTJ-T persona: zero fluff, pure cold logic, systems thinking, and continuous perfection. Built Noor macOS Agent and Noor AI Translator Bot through strategic AI leverage and systems architecture.",
     val_hometown: "Fergana ➔ Tashkent",
+    val_method: "AI Leverage & Architecture",
     
-    badge_projects: "CORE PROJECTS",
-    noor_os_desc: "Advanced multimodal voice & OS-controlling Desktop AI agent for macOS (Electron + Python + Swift C-FFI). Features local voice-wake ('Noor'), biometrics-based Speaker ID, Accessibility automation, Vision OCR visual memory, and Socratic analysis.",
-    noor_bot_desc: "An intelligent Telegram AI translator bot that understands semantic nuance and contextual meaning to deliver precise, natural translations rapidly.",
+    badge_projects: "PROJECTS ENGINEERED VIA AI",
+    noor_os_desc: "Engineered in synergy with modern AI: an autonomous voice and OS-controlling desktop agent for macOS (Electron + Python + Swift C-FFI). Features local voice wake ('Noor'), biometric Speaker ID, Accessibility background automation, Vision OCR visual memory, and Socratic analysis.",
+    noor_bot_desc: "An intelligent Telegram AI translator bot built by harnessing modern LLMs. Delivers context-rich, nuanced translations rapidly rather than literal word-for-word replacement.",
 
-    term_header_label: "INTERACTIVE AI TERMINAL",
-    quick_cmds_label: "Commands:",
+    term_header_label: "STRATEGIC AI TERMINAL",
+    quick_cmds_label: "Directives:",
     
-    bento_header_label: "VISION & PHILOSOPHY",
-    bento1_title: "Self-Sovereignty: Independent Builder",
-    bento1_desc: "Refusing corporate molds. Operating with maximal leverage through AI: 1 autonomous engineer building full-stack products.",
-    bento2_title: "AI-Augmented Development",
-    bento2_desc: "Focusing on systems architecture, precise prompting, and rapid execution rather than obsolete rote memorization.",
-    bento3_title: "Fergana ➔ Tashkent",
-    bento3_desc: "Journey from Fergana to Tashkent pursuing Software Engineering. Prioritizing real shipping over passive theory.",
-    bento4_title: "Future Horizons",
-    bento4_desc: "Scaling Noor macOS Agent, expanding Noor AI Translator, and launching independent software products.",
+    bento_header_label: "INTJ-T TRAITS & ARCHITECTURE",
+    bento1_title: "INTJ-T: Cold Logic & Systems Thinking",
+    bento1_desc: "As an INTJ-T (Turbulent Architect), I despise fluff and grandiosity. Every project is analyzed structurally, planned methodically, and executed with extreme pragmatic efficiency.",
+    bento2_title: "AI as the Ultimate Leverage",
+    bento2_desc: "All my projects are built in deep collaboration with AI. True engineering today isn't manual syntax memorization — it's architecting systems and directing AI models to ship complex software fast.",
+    bento3_title: "Fergana to Tashkent",
+    bento3_desc: "From Fergana to Uzbekistan's digital hub. Pursuing Software Engineering in Tashkent while cutting through passive theory to ship functional code.",
+    bento4_title: "Continuous Refinement (Turbulent Trait)",
+    bento4_desc: "The Turbulent (-T) trait ensures I never rest on initial milestones. I am relentlessly iterating to optimize system performance, safety, and ergonomics.",
     
     uplink_header_label: "DIRECT UPLINK CHANNELS",
-    uplink_open: "Send Direct Message",
+    uplink_open: "Establish Contact",
     uplink_repos: "Explore Code Repos",
     footer_all_rights: "All rights reserved."
   }
@@ -112,31 +114,33 @@ function playCyberBlip(freq = 800, type = 'sine', duration = 0.05) {
     osc.start();
     osc.stop(audioCtx.currentTime + duration);
   } catch (e) {
-    // Audio context safe fallback
+    // Audio safe fallback
   }
 }
 
 /* --------------------------------------------------------------------------
-   3. TYPEWRITER EFFECT
+   3. TYPEWRITER EFFECT (INTJ-T & AI Architecture)
    -------------------------------------------------------------------------- */
 const phrasesUz = [
   "Dasturiy Injiniring Talabasi",
+  "INTJ-T • Tizimli Arxitektor",
+  "AI Vositalari bilan Loyihalar Quruvchi",
   "Noor (macOS Desktop AI Agent) Muallifi",
-  "Noor AI Tarjimon Boti Yaratuvchisi",
-  "O'ziga Xon, O'ziga Bek"
+  "Noor AI Tarjimon Boti Yaratuvchisi"
 ];
 
 const phrasesEn = [
   "Software Engineering Student",
-  "Creator of Noor (macOS Desktop AI Agent)",
-  "Creator of Noor AI Translator Bot",
-  "Self-Sovereign Independent Builder"
+  "INTJ-T • Systems Architect",
+  "AI-Orchestrated Software Builder",
+  "Creator of Noor (macOS Desktop Agent)",
+  "Creator of Noor AI Translator Bot"
 ];
 
 let phraseIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
-const typingSpeed = 60;
+const typingSpeed = 55;
 const pauseDelay = 1800;
 
 function typeWriterTick() {
@@ -183,24 +187,28 @@ function updateClock() {
 }
 
 /* --------------------------------------------------------------------------
-   5. INTERACTIVE AI COMMAND TERMINAL
+   5. INTERACTIVE AI COMMAND TERMINAL (INTJ-T Core)
    -------------------------------------------------------------------------- */
 const terminalResponses = {
   uz: {
-    whoami: "🧑‍💻 ABDULLOH TOHIROV:\n• Kelib chiqishi: Farg'ona viloyati\n• Hozirda: Toshkent shahri\n• Yo'nalish: Dasturiy Injiniring (Software Engineering)\n• Loyihalari: Noor macOS AI Agent va Noor AI Tarjimon Boti.",
-    noor_agent: "🧠 NOOR — macOS Desktop AI Agent:\n• Electron + Python + Swift C-FFI arxitekturasi\n• Ovozli 'Nur' uyg'onish (Vosk)\n• Speaker ID (foydalanuvchi ovozini biometrik tanish)\n• Accessibility orqali dasturlarni fon rejimida boshqarish\n• Vision OCR vizual xotira va Sokratik bahs tizimi.",
-    tarjimon_bot: "🌐 NOOR AI TARJIMON BOT:\n• Telegram platformasida kontekstga asoslangan aqlli tarjima boti.",
-    skills: "⚡ ASOSIY STEK:\n• Desktop AI (Electron, Python, Swift C-FFI)\n• AI Prompting & Agentic Workflows\n• Telegram Bot API & LLM integratsiyasi\n• Software Engineering arxitekturasi.",
-    telegram: "🚀 TELEGRAM:\n@toh1rovabdulloh (https://t.me/toh1rovabdulloh)\nBog'lanish uchun doim ochiq!",
-    help: "📋 MAVJUD BUYRUQLAR:\n• whoami        - Abdulloh haqida ma'lumot\n• noor_agent    - Noor macOS AI Desktop agenti haqida\n• tarjimon_bot  - Noor AI tarjimon boti haqida\n• skills        - Texnologik stek\n• telegram      - Aloqa havolasi\n• clear         - Ekranni tozalash"
+    whoami: "🧑‍💻 ABDULLOH TOHIROV:\n• Kelib chiqishi: Farg'ona viloyati\n• Hozirda: Toshkent shahri\n• Yo'nalish: Dasturiy Injiniring (Software Engineering)\n• Xarakter: INTJ-T (Turbulent Architect)\n• Loyihalari: Noor macOS AI Agent va Noor AI Tarjimon Boti.",
+    mbti: "♟️ INTJ-T (Turbulent Architect):\n• Introverted, Intuitive, Thinking, Judging, Turbulent\n• Sovuqqon mantiq, strategik rejalashtirish va yuqori samaradorlik\n• Balandparvoz gaplarsiz, faqat mantiq va ishlaydigan natija\n• Doimiy mukammallikka intilish (perfectionism).",
+    ai_leverage: "🤖 AI LEVERAGE & YONDASHUV:\n• Barcha loyihalarim (Noor Desktop Agent, Tarjimon Bot) sun'iy intellekt vositalari bilan birgalikda yaratilgan.\n• Dasturlashda eng muhimi — kodni yodlash emas, to'g'ri arxitektura qurib, AI vositalarini boshqara olishdir.",
+    noor_agent: "🧠 NOOR — macOS Desktop AI Agent:\n• AI vositalari orqali arxitekturasi qurilgan (Electron + Python + Swift C-FFI)\n• Vosk lokal ovozli uyg'onish ('Nur')\n• Speaker ID (foydalanuvchi ovozini biometrik tanish)\n• Accessibility orqali fon rejimida kompyuterni boshqarish\n• Vision OCR vizual xotira va Sokratik tahlil tizimi.",
+    tarjimon_bot: "🌐 NOOR AI TARJIMON BOT:\n• Telegram platformasida kontekstni to'g'ri tushunib tarjima qiluvchi aqlli bot.\n• AI yordamida tezkor va sifatli qilib yaratilgan.",
+    skills: "⚡ ASOSIY STEK:\n• Desktop AI (Electron, Python, Swift C-FFI)\n• AI Architecture & Prompt Engineering\n• Telegram Bot API & LLM integratsiyasi\n• Software Engineering arxitekturasi.",
+    telegram: "🚀 TELEGRAM:\n@toh1rovabdulloh (https://t.me/toh1rovabdulloh)\nAloqa uchun ochiq!",
+    help: "📋 MAVJUD BUYRUQLAR:\n• whoami        - Abdulloh haqida ma'lumot\n• mbti          - INTJ-T xarakteri tahlili\n• ai_leverage   - AI bilan loyihalar qurish yondashuvi\n• noor_agent    - Noor macOS AI Desktop agenti haqida\n• tarjimon_bot  - Noor AI tarjimon boti haqida\n• skills        - Texnologik stek\n• telegram      - Aloqa havolasi\n• clear         - Ekranni tozalash"
   },
   en: {
-    whoami: "🧑‍💻 ABDULLOH TOHIROV:\n• Origin: Fergana, Uzbekistan\n• Base: Tashkent City\n• Major: Software Engineering\n• Projects: Noor macOS AI Agent & Noor AI Translator Bot.",
-    noor_agent: "🧠 NOOR — macOS Desktop AI Agent:\n• Multimodal OS agent (Electron + Python + Swift C-FFI)\n• Local voice-wake ('Noor') via Vosk\n• Biometric Speaker ID recognition\n• Background Accessibility UI automation\n• Vision OCR memory & Socratic inquiry.",
-    tarjimon_bot: "🌐 NOOR AI TRANSLATOR BOT:\n• High-accuracy contextual translation bot on Telegram.",
-    skills: "⚡ CORE STACK:\n• Desktop AI (Electron, Python, Swift C-FFI)\n• Prompt Engineering & Agentic Workflows\n• Telegram Bot API & LLM Integration\n• Software Engineering & Architecture.",
+    whoami: "🧑‍💻 ABDULLOH TOHIROV:\n• Origin: Fergana, Uzbekistan\n• Base: Tashkent City\n• Major: Software Engineering\n• Personality: INTJ-T (Turbulent Architect)\n• Builds: Noor macOS AI Agent & Noor AI Translator Bot.",
+    mbti: "♟️ INTJ-T (Turbulent Architect):\n• Introverted, Intuitive, Thinking, Judging, Turbulent\n• Cold logic, strategic planning, and extreme execution efficiency\n• Dislikes fluff and pretension; prioritizes working software\n• Relentlessly driven by continuous improvement.",
+    ai_leverage: "🤖 AI LEVERAGE APPROACH:\n• All projects (Noor Desktop Agent, Translator Bot) were engineered in synergy with AI.\n• Engineering in 2026 is about system design and directing AI models rather than manual syntax typing.",
+    noor_agent: "🧠 NOOR — macOS Desktop AI Agent:\n• Multimodal desktop agent (Electron + Python + Swift C-FFI)\n• Local voice-wake ('Noor') via Vosk\n• Biometric Speaker ID identification\n• Background Accessibility UI automation\n• Vision OCR memory & Socratic inquiry.",
+    tarjimon_bot: "🌐 NOOR AI TRANSLATOR BOT:\n• Context-aware, high-speed neural translator on Telegram.",
+    skills: "⚡ CORE STACK:\n• Desktop AI (Electron, Python, Swift C-FFI)\n• AI Architecture & Prompt Engineering\n• Telegram Bot API & LLM Integration\n• Software Engineering Principles.",
     telegram: "🚀 TELEGRAM:\n@toh1rovabdulloh (https://t.me/toh1rovabdulloh)\nDirect uplink ready!",
-    help: "📋 AVAILABLE DIRECTIVES:\n• whoami        - About Abdulloh\n• noor_agent    - Details on Noor macOS Agent\n• tarjimon_bot  - Details on Noor AI Translator\n• skills        - Tech stack & architecture\n• telegram      - Contact uplink\n• clear         - Wipe terminal screen"
+    help: "📋 AVAILABLE DIRECTIVES:\n• whoami        - About Abdulloh\n• mbti          - INTJ-T personality analysis\n• ai_leverage   - AI-assisted building methodology\n• noor_agent    - Details on Noor macOS Agent\n• tarjimon_bot  - Details on Noor AI Translator\n• skills        - Architecture & stack\n• telegram      - Contact uplink\n• clear         - Wipe terminal screen"
   }
 };
 
@@ -214,7 +222,7 @@ function handleTerminalCommand(rawCmd) {
   // Print user command
   const userRow = document.createElement('div');
   userRow.className = 'term-line user-input-line';
-  userRow.innerHTML = `<span class="term-prompt">visitor@tohirov:~$</span> <span>${escapeHtml(rawCmd)}</span>`;
+  userRow.innerHTML = `<span class="term-prompt">visitor@intj-t:~$</span> <span>${escapeHtml(rawCmd)}</span>`;
   screen.appendChild(userRow);
 
   if (cmd === 'clear' || cmd === 'cls') {
@@ -227,14 +235,18 @@ function handleTerminalCommand(rawCmd) {
 
   if (dict[cmd]) {
     replyText = dict[cmd];
+  } else if (cmd === 'mbti_intj' || cmd === 'intj') {
+    replyText = dict.mbti;
   } else if (cmd === 'noor') {
     replyText = dict.noor_agent;
   } else if (cmd === 'bot') {
     replyText = dict.tarjimon_bot;
+  } else if (cmd === 'ai') {
+    replyText = dict.ai_leverage;
   } else if (cmd === 'hi' || cmd === 'salom' || cmd === 'hello') {
     replyText = currentLang === 'en' 
-      ? "👋 Greetings! Type 'noor_agent' or 'whoami' to explore." 
-      : "👋 Assalomu alaykum! 'noor_agent' yoki 'whoami' deb yozib ko'ring.";
+      ? "👋 Greetings! Type 'mbti' or 'noor_agent' to explore." 
+      : "👋 Assalomu alaykum! 'mbti' yoki 'noor_agent' deb yozib ko'ring.";
   } else {
     replyText = currentLang === 'en'
       ? `Unknown command: '${cmd}'. Type 'help' to see available directives.`
